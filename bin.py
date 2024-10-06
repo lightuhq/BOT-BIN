@@ -25,7 +25,7 @@ async def start(update: Update, context: CallbackContext) -> None:
 async def bin(update: Update, context: CallbackContext) -> None:
     bin_number = ' '.join(context.args)
     if not bin_number:
-        msg = await update.message.reply_text("Faut mettre un bin frérot !")
+        msg = await update.message.reply_text("Faut mettre un bin sale merde !")
         await asyncio.sleep(15)
         await update.message.delete()
         return
