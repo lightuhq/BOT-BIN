@@ -5,7 +5,7 @@ import logging
 import asyncio
 
 TOKEN = '7244633347:AAH6sHCo-0mHBCxU-G6S5ji5rItL9pQTKcQ'
-API_KEY = '2345015406e7a2ed61213bbaf0be72ea5cdb1c69'
+API_KEY = 'cd1f2672beec9ac7574ef83b89533c63929d3512'
 API_URL = 'https://api.bintable.com/v1/'
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
